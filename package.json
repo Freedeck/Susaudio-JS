@@ -1,0 +1,20 @@
+{
+  "name": "susaudio-js",
+  "version": "1.0.0",
+  "description": "JS implementation of Audio() for Susdeck. Same as TS but works for now.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Susdeck/Susaudio-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Susdeck/Susaudio-JS/issues"
+  },
+  "homepage": "https://github.com/Susdeck/Susaudio-JS#readme"
+}
