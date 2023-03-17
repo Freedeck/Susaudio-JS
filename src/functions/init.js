@@ -9,4 +9,10 @@ module.exports = async () => {
             }
         }
     })
+    Audio.prototype.stop = function () {
+        if (!this.isSusaudio) { this.stop(); return }
+        this.pause()
+        this.currentTime = 0
+        Susaudio._player.queue = _sa_removeFromArray(Susaudio._player.queue, this)
+      }
 }

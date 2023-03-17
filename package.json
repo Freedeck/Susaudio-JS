@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/Susdeck/Susaudio-JS/issues"
   },
-  "homepage": "https://github.com/Susdeck/Susaudio-JS#readme"
+  "homepage": "https://github.com/Susdeck/Susaudio-JS#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@webpack-cli/generators": "^3.0.1",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.76.2",
+    "webpack-cli": "^5.0.1"
+  }
 }
