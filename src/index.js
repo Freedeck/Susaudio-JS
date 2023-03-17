@@ -24,6 +24,8 @@ const Susaudio = {
     }
 }
 
+window.Susaudio = Susaudio;
+
 module.exports = Susaudio;
 
 setInterval(() => {
